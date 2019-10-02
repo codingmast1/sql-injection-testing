@@ -11,7 +11,7 @@ Steps to Implement this program:-
 
 <a href = "https://www.apachefriends.org/download.html">Click here to download</a>
 
-Locate xampp in your ```C:\\``` drive and then copy these files in ```htdocs``` folder 
+Locate xampp in your ```C:\\``` drive and then copy these files in ```htdocs``` folder. 
 
 
 3. Start mysql and apache services in server:-
@@ -24,7 +24,7 @@ Locate xampp in your ```C:\\``` drive and then copy these files in ```htdocs``` 
    
    Open URL ```localhost/phpmyadmin``` in browser and create new database by name specified above.
 
-5. Run that file (project.html) through server.
+5. Run that file (project.html) through server by  typing ```localhost/project.html``` in browser.
 
 6. Test the basic functionality of this program by typing "srno"(serial number) in text field, 
    if the output is showing the details of that "srno" then the basic functionality  is working correctly.
