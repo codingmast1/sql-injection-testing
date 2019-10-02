@@ -7,7 +7,7 @@ Steps to Implement this program:- ( For Windows users)
 
 2. Download xampp server or wampp server (or any other server where you want to execute html and php file).
 
-<link src = "https://www.apachefriends.org/download.html">Click here to download</link>
+<a href = "https://www.apachefriends.org/download.html">Click here to download</a>
 
 3. Start mysql and apache services in server.
 
