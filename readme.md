@@ -3,13 +3,17 @@
 
 Steps to Implement this program:- ( For Windows users)
 
-1. Git-Clone these 2 files (project.html andd projectdb.php).
+1. GitClone these 2 files (project.html andd projectdb.php).
 
 2. Download xampp server or wampp server (or any other server where you want to execute html and php file).
 
 <a href = "https://www.apachefriends.org/download.html">Click here to download</a>
 
-3. Start mysql and apache services in server.
+
+3. Start mysql and apache services in server:-
+
+<img src = "screenshots/1.png" height = 500 width  = 900/>
+
 
 4. Create mysql database in php-my-admin with name "project",further in this database create a table with name "users" 
    then you need to insert some random records in the table.
