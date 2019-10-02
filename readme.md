@@ -1,4 +1,4 @@
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SQL Injection Tester <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<b> SQL Injection Tester </b>
 
 
 Steps to Implement this program:- ( For Windows users)
