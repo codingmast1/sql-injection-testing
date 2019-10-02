@@ -1,7 +1,8 @@
 <h2> SQL Injection Tester </h2>
 
+<h3>For Windows users</h3>
 
-Steps to Implement this program:- ( For Windows users)
+Steps to Implement this program:- 
 
 1. GitClone these 2 files (project.html andd projectdb.php).
 
@@ -60,7 +61,9 @@ Steps to Implement this program:- ( For Windows users)
       <img src = "screenshots/Screenshot from 2019-10-03 00-34-16.png" height = 500 width  = 900/>
 
 
-Steps to Implement this program:- ( For Linux users):-
+<h3>For Linux users</h3>
+
+Steps to Implement this program:-
 
 Setting up LAMP(Linux, Apache, Mysql, PHP):-
 
