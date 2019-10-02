@@ -7,6 +7,8 @@ Steps to Implement this program:- ( For Windows users)
 
 2. Download xampp server or wampp server (or any other server where you want to execute html and php file).
 
+<link src = "https://www.apachefriends.org/download.html">Click here to download</link>
+
 3. Start mysql and apache services in server.
 
 4. Create mysql database in php-my-admin with name "project",further in this database create a table with name "users" 
@@ -58,36 +60,36 @@ Steps to Implement this program:- ( For Linux users):-
 
 Setting up LAMP(Linux, Apache, Mysql, PHP):-
 
-1- If you have a Linux OS then you have already done the first phase of LAMP which is linux.
+1. If you have a Linux OS then you have already done the first phase of LAMP which is linux.
 
-2- Further, you have to install :-
-  -Apache
-  Command - apt-get install apache2
-  -Mysql
-  Command - apt-get install mysql -server
-  -pHp
-  Command - apt-get install php7.2 libapache-mod-php7.2php-mysql
-  -pHp-my-admin
-  Command - apt-get install phpmyadmin
+2. Further, you have to install :-
+  Apache
+  Command = apt-get install apache2
+  Mysql
+  Command = apt-get install mysql -server
+  pHp
+  Command = apt-get install php7.2 libapache-mod-php7.2php-mysql
+  PhpMyAdmin
+  Command = apt-get install phpmyadmin
 
-3- Now ,you have to follow some mysql commands:-
-  -Create database:-
+3. Now ,you have to follow some mysql commands:-
+  Create database:-
     Create database project;
-  -Select the created database:-
+  Select the created database:-
     use project;
-  -Create table in database:-
+  Create table in database:-
     create table users(srno int(5) primary key, name  varchar(30), city varchar(30));
 
-4- Now git-clone those 2 pages(project.html and projectdb.php) and copy them at following path:-
+4. Now gitclone those 2 pages(project.html and projectdb.php) and copy them at following path:-
    var/www/html
 
-5- Now run project.html in browser (localhost/project.html) 
+5. Now run project.html in browser (localhost/project.html) 
 
-6-  Now, let's test sql injection:-
+6.  Now, let's test sql injection:-
   
-  - Type " a' " in text field, if output is  showing a sql error then this page is sql injected 
+   Type " a' " in text field, if output is  showing a sql error then this page is sql injected 
     and can be hackable.
-  - Now type some queries given below:-
+   Now type some queries given below:-
 
    1. a' and 1=0 union select table_name, table_schema, table_type, table_catalog from information_schema.tables;#
 
