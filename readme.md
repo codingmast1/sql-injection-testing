@@ -1,3 +1,6 @@
+<h2> Introduction </h2>
+Web application security is very important in web application development life cycle. International intitute of cyber security (<a href = "https://www.iicybersecurity.com/ethical-hacking.html">iicybersecurity</a>) basic ethical hacking course is focus on understanding basic concept realted to web application security among which is SQLi which  is explained through a basic project. This project  will help students understand the very basic of SQLi.
+
 <h2> SQL Injection Tester </h2>
 
 <h3>For Windows users</h3>
@@ -28,6 +31,11 @@ Locate xampp in your ```C:\\``` drive and then copy these files in ```htdocs``` 
 
 6. Test the basic functionality of this program by typing "srno"(serial number) in text field, 
    if the output is showing the details of that "srno" then the basic functionality  is working correctly.
+   
+   <img src = "screenshots/Screenshot from 2019-10-03 11-16-56.png" height = 500 width  = 900/>
+   
+   Output:-
+   <img src = "screenshots/Screenshot from 2019-10-03 11-17-06.png" height = 500 width  = 900/>
 
 7. Now, let's test sql injection:-
   
@@ -68,6 +76,10 @@ Locate xampp in your ```C:\\``` drive and then copy these files in ```htdocs``` 
 
 <h3>For Linux users</h3>
 
+<b> I am using ubuntu version 18.04 </b>
+
+ISO Download :- <a href = "http://releases.ubuntu.com/18.04/"> Click Here </a> 
+
 Steps to Implement this program:-
 
 Setting up LAMP(Linux, Apache, Mysql, PHP):-
@@ -97,7 +109,7 @@ Setting up LAMP(Linux, Apache, Mysql, PHP):-
     ```create table users(srno int(5) primary key, name  varchar(30), city varchar(30));```
 
 4. Now gitclone those 2 pages(project.html and projectdb.php) and copy them at following path:-
-   var/www/html
+   `var/www/html```
 
 5. Now run project.html in browser (localhost/project.html) 
 
