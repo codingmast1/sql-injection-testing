@@ -1,5 +1,5 @@
 <h2> Introduction </h2>
-Web application security is very important in web application development life cycle. International intitute of cyber security (<a href = "https://www.iicybersecurity.com/ethical-hacking.html">iicybersecurity</a>) basic ethical hacking course is focus on understanding basic concept realted to web application security among which is SQLi which  is explained through a basic project. This project  will help students understand the very basic of SQLi.
+Web application security is very important in web application development life cycle. International institute of cyber security (<a href = "https://www.iicybersecurity.com/ethical-hacking.html">iicybersecurity</a>) basic ethical hacking course is focus on understanding basic concept realted to web application security among which is SQLi and which is explained through a basic project. This project  will help students understand the very basic of SQLi.
 
 <h2> SQL Injection Tester </h2>
 
