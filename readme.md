@@ -48,6 +48,10 @@ Locate xampp in your ```C:\\``` drive and then copy these files in ```htdocs``` 
     
     <img src = "screenshots/Screenshot from 2019-10-03 00-17-59.png" height = 500 width  = 900/>
     
+    <b>Why this error is coming?</b>
+    Because I am using a function you can spot in php code ```(mysqli_error($con))``` , which Return the
+    last error description for the most recent function call. If you type ```a'``` in text field it will return an sql syntax error.
+    
    Now type some queries given below:-
 
    1. ```a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables;#```
@@ -109,7 +113,7 @@ Setting up LAMP(Linux, Apache, Mysql, PHP):-
     ```create table users(srno int(5) primary key, name  varchar(30), city varchar(30));```
 
 4. Now gitclone those 2 pages(project.html and projectdb.php) and copy them at following path:-
-   `var/www/html```
+   ```var/www/html```
 
 5. Now run project.html in browser (localhost/project.html) 
 
@@ -124,4 +128,16 @@ Setting up LAMP(Linux, Apache, Mysql, PHP):-
    2. ```a' and 1=0 union select table_schema, table_type, table_catalog from information_schema.tables where table_name like 'user%';#```
 
    3. ```a' and 1=0 union select concat_WS(':', name), concat_WS(':', srno, city), name, city from user;#```
-    
+   
+   
+   <h2>Prevention to Sql Injection </h2>
+   
+   1.<b> Don't use dynamic SQL don't construct queries with user input:</b> Even data sanitization routines can be flawed, so use prepared statements, parameterized queries or stored procedures instead whenever possible. 
+   
+   2. <b>Update and patch:</b> Vulnerabilities in applications and databases that hackers can exploit using SQL injection are regularly discovered, so it's vital to apply patches and updates as soon as practical.
+   
+   3. <b>Firewall, Consider a Web Application Firewall(WAF):</b> A WAF can be particularly useful to provide some security protection against a new vulnerability before a patch is available. A popular example is the free, open source module ModSecurity, which is available for Apache, Microsoft IIS, and nginx web servers. ModSecurity provides a sophisticated and ever-evolving set of rules to filter potentially dangerous web requests. Its SQL injection defenses can catch most attempts to sneak SQL through web channels.
+   
+   4.<b>Keep your secrets secret:</b> Assume that your application is not secure and act accordingly by encrypting or hashing passwords and other confidential data, including connection strings.
+   
+   5.<b>Buy better software:</b> Make code writers responsible for checking the code and for fixing security flaws in custom applications before the software is delivered.
