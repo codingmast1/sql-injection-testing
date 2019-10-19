@@ -22,10 +22,10 @@ Locate xampp in your ```C:\\``` drive and then copy these files in ```htdocs``` 
 <img src = "screenshots/1.png" height = 500 width  = 900/>
 
 
-4. Create mysql database in php-my-admin with name "project",further in this database create a table with name "users", with column name   as "srno", "name", "city" 
-  "srno" = type integer and length 5
-  "name" = type varchar and length 30
-  "city" = type varchar and length 30
+4. Create mysql database in php-my-admin with name "project",further in this database create a table with name "users", with column name   as "srno", "name", "city" <br>
+  "srno" = type integer and length 5 <br>
+  "name" = type varchar and length 30 <br>
+  "city" = type varchar and length 30 <br>
   
    After creating table you need to insert some random records in the table. 
    
