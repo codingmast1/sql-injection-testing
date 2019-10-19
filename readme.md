@@ -22,8 +22,12 @@ Locate xampp in your ```C:\\``` drive and then copy these files in ```htdocs``` 
 <img src = "screenshots/1.png" height = 500 width  = 900/>
 
 
-4. Create mysql database in php-my-admin with name "project",further in this database create a table with name "users" 
-   then you need to insert some random records in the table.
+4. Create mysql database in php-my-admin with name "project",further in this database create a table with name "users", with column name   as "srno", "name", "city" 
+  "srno" = type integer and length 5
+  "name" = type varchar and length 30
+  "city" = type varchar and length 30
+  
+   After creating table you need to insert some random records in the table. 
    
    Open URL ```localhost/phpmyadmin``` in browser and create new database by name specified above.
 
